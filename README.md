@@ -189,8 +189,12 @@ footer
 1. **Changes should be frequently pushed to the matching working branch on GitHub.** This ensures that if a computer is lost, stolen, or malfunctions, your work will still be available to the rest of your team. **Before every single push, the development branch needs to be pulled to make sure there is no conflict. If there is, conflicts should be resolved before the code is pushed to the matching working branch on GitHub.**
 
    ```text
-   // In your working branch
-   git pull origin development
+   // we start from branch fix/my-branch
+    git checkout development
+    git pull
+    git checkout fix/my-branch
+    git merge development
+    git pull origin development
 
    // Then
    git push origin <working-branch>
