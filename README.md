@@ -191,10 +191,9 @@ footer
    ```text
    // we start from branch fix/my-branch
     git checkout development
-    git pull
+    git pull origin development
     git checkout fix/my-branch
     git merge development
-    git pull origin development
 
    // Then
    git push origin <working-branch>
