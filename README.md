@@ -62,7 +62,7 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ### About
 
-- [ ] High Level info about project will go here
+This project is a clone of the [mouseless.app](mouseless.app) product webpage. The product is an application that helps users remember keyboard shortcuts to their favorite apps by delivering them bite-sized exercises.
 
 ### MVP Definition
 
@@ -123,7 +123,7 @@ A three-level hierarchy of branches is created, through which changes are promot
 - **Development:** Reflects the code for the next release. Developers work in working branches, which are then pulled into this branch. All code pulled into this branch must be tested and undergo peer review as part of the PR process.
 - **Master:** Only updated from the development branch Pull Requests. This branch always reflects the current production release that is seen by live users.
 
-### Get Started
+### Get Started Developing
 
 1. Clone the repo to your local computer.
 
@@ -133,11 +133,32 @@ A three-level hierarchy of branches is created, through which changes are promot
    git clone https://github.com/chingu-voyages/v17-toucans-team-01 <custom-folder-name>
    ```
 
-2. Create a working branch for a specific feature or task in the backlog (like bug fixes).
+2. Checkout the development branch.
+
+   ```text
+     git checkout development
+   ```
+
+3. Create a working branch for a specific feature or task in the backlog (like bug fixes).
 
    ```text
    git checkout -b feature/course-review
    ```
+
+4. Update project dependencies.
+
+   ```text
+     npm install
+   ```
+
+5. Set up linting and code formatting (VS Code)
+
+   - Install Babel plugin
+   - Install Prettier plugin
+   - In VS Code global settings, make sure auto format on save is checked on.
+   - In Prettier plugin settings, turn on single quote and semi colons.
+
+6. Work and make commits on local feature branch.
 
 ### Commit Messages
 
