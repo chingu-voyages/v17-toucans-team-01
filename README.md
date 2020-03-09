@@ -11,10 +11,13 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
   - [About](#about)
   - [MVP Definition](#mvp-definition)
   - [Included Functions & Features](#included-functions--features)
-  - [End user stories](#end-user-stories)
+  - [User Stories](#user-stories)
   - [Tech Stack](#tech-stack)
   - [Design Mockup](#design-mockup)
 - [Development Workflow](#development-workflow)
+  - [Get Started Developing](#get-started-developing)
+  - [Commit Messages](#commit-messages)
+  - [Pushing Changes](#pushing-changes)
 - [Code Style Guide](#code-style-guide)
   - [HTML formatting and style rules](#html-formatting-and-style-rules)
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
@@ -33,7 +36,7 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 - [ ] How will you make decisions?
 - [ ] And how will you deal with conflict?
 
-### Git Strategy
+### Git Strategy <!-- omit in toc -->
 
 - [ ] Pull Requests
   - at least one team member has to review code before it can be approved.?
@@ -54,7 +57,7 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ## Team Agreements
 
-- A Weekly Sprint Planning Meeting is held every Sunday at 10AM EST / 1PM PST. This meeting is time boxed to one hour.
+- A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 10AM EST / 1PM PST. This meeting is time boxed to one hour.
 
 - A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via ??? to teammates by ??? each Friday before the Sunday Meeting.
 
