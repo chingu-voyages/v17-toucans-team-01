@@ -59,7 +59,7 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 - A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
 
-- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via ??? to teammates by ??? each Friday before the Sunday Meeting.
+- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
 
 ## Project Information
 
