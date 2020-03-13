@@ -32,9 +32,6 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 - [ ] Set up project management tools
 - [ ] Add tasks needed to reach MVP status to your project backlog. Since you'll be following Agile principles, the backlog won't be complete until the latter part of the project. The team will continuously revise it in each sprint.
 - [ ] Designing project using a mockup tool.
-- [ ] What does success look like for your team?
-- [ ] How will you make decisions?
-- [ ] And how will you deal with conflict?
 
 ### Git Strategy <!-- omit in toc -->
 
@@ -64,9 +61,7 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 ## Team Goals
 
 - Develop and deploy a working MVP.
-
 - Gain significant confidence using Github & Git in collaborative coding projects.
-
 - Become more comfortable and efficient with page layouts.
 
 ## Team Agreements
@@ -74,6 +69,12 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 - A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
 
 - A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
+
+- [ ] What does success look like for your team?
+
+- [ ] How will you make decisions?
+
+- [ ] And how will you deal with conflict?
 
 ## Project Information
 
