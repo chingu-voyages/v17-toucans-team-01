@@ -2,48 +2,47 @@
 
 Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <https://twitter.com/ChinguCollabs>
 
-## Table of Contents <!-- omit in toc -->
+## 📚 Table of Contents
 
-- [Team Goals](#team-goals)
-- [Team Agreements](#team-agreements)
-- [Project Information](#project-information)
+- [📚 Table of Contents](#-table-of-contents)
+- [🏆 Team Goals](#-team-goals)
+- [🤝 Team Agreements](#-team-agreements)
+- [✅ Project Information](#-project-information)
   - [About](#about)
   - [MVP Definition](#mvp-definition)
   - [Included Functions & Features](#included-functions--features)
   - [User Stories](#user-stories)
   - [Tech Stack](#tech-stack)
   - [Design Mockup](#design-mockup)
-- [Git Strategy](#git-strategy)
+- [🔀 Git Strategy](#-git-strategy)
   - [Pull Requests & Merging](#pull-requests--merging)
-    - [Development](#development)
+    - [Development Branch](#development-branch)
     - [Master Branch](#master-branch)
-- [Development Workflow](#development-workflow)
+- [🚀 Development Workflow](#-development-workflow)
   - [Get Started Developing](#get-started-developing)
   - [Commit Messages](#commit-messages)
   - [Pushing Changes](#pushing-changes)
-- [Code Style Guide](#code-style-guide)
+- [💅 Code Style Guide](#-code-style-guide)
   - [HTML formatting and style rules](#html-formatting-and-style-rules)
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
   - [JavaScript formatting and style rules](#javascript-formatting-and-style-rules)
 
-## Team Goals
+## 🏆 Team Goals
 
 - Develop and deploy a working MVP.
 - Gain significant confidence using Github & Git in collaborative coding projects.
 - Become more comfortable and efficient with page layouts.
 
-## Team Agreements
+## 🤝 Team Agreements
 
 - A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
 - A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
 
 - [ ] What does success look like for your team?
-
 - [ ] How will you make decisions?
-
 - [ ] And how will you deal with conflict?
 
-## Project Information
+## ✅ Project Information
 
 ### About
 
@@ -90,7 +89,7 @@ TBA info will go here
 
 TBA info will go here
 
-## Git Strategy
+## 🔀 Git Strategy
 
 - [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
 
@@ -98,7 +97,7 @@ TBA info will go here
 
 - All Pull Requests and code merging will take place in the project's Github repo.
 
-#### Development
+#### Development Branch
 
 - Working branches will be merged into the development branch during weekly development.
 - At least one team member other than the requester must review and approve a request before it can be merged.
@@ -110,9 +109,9 @@ TBA info will go here
 - A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
 - All team members must approve a request for merging into the master branch.
 
-## Development Workflow
+## 🚀 Development Workflow
 
-A three-level hierarchy of branches is created, through which changes are promoted.
+A three-level hierarchy of branches is used, through which changes are promoted.
 
 - **Working branches:** Individual branches created by each developer when they are working on changes and bug fixes. The type can be one of these types:
 
@@ -160,7 +159,7 @@ A three-level hierarchy of branches is created, through which changes are promot
 
    - Install Babel plugin
    - Install Prettier plugin
-   - In VS Code global settings, make sure auto format on save is checked on.
+   - In VS Code global settings, make sure "auto format on save" is checked on.
    - In Prettier plugin settings, turn on single quote and semi colons.
 
 6. Work and make commits on local feature branch.
@@ -233,9 +232,11 @@ footer
 
 ![The Workflow](https://github.com/Chingu-cohorts/voyage-wiki/raw/development/images/Git%20Workflow.png)
 
-## Code Style Guide
+## 💅 Code Style Guide
 
-This project uses a Prettier configuration file to format HTML & CSS, and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+
+The following rules are enforced:
 
 ### HTML formatting and style rules
 
