@@ -23,16 +23,6 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
   - [JavaScript formatting and style rules](#javascript-formatting-and-style-rules)
 
-## Sprint 1 Objectives
-
-- [ ] Learn any new technologies for your project
-- [ ] Set up the project and push it to GitHub
-- [ ] Set up local development environments for each teammate.
-- [ ] Break down the project, create backlog, and use it as a roadmap for the remainder of the project.
-- [ ] Set up project management tools
-- [ ] Add tasks needed to reach MVP status to your project backlog. Since you'll be following Agile principles, the backlog won't be complete until the latter part of the project. The team will continuously revise it in each sprint.
-- [ ] Designing project using a mockup tool.
-
 ### Git Strategy <!-- omit in toc -->
 
 - [x] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
