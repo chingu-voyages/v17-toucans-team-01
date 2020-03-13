@@ -4,78 +4,44 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Sprint 1 Objectives](#sprint-1-objectives)
-- [Team Goals](#team-goals)
-- [Team Agreements](#team-agreements)
-- [Project Information](#project-information)
+- [🏆 Team Goals](#-team-goals)
+- [🤝 Team Agreements](#-team-agreements)
+- [✅ Project Information](#-project-information)
   - [About](#about)
   - [MVP Definition](#mvp-definition)
   - [Included Functions & Features](#included-functions--features)
   - [User Stories](#user-stories)
   - [Tech Stack](#tech-stack)
   - [Design Mockup](#design-mockup)
-- [Development Workflow](#development-workflow)
+- [🔀 Git Strategy](#-git-strategy)
+  - [Pull Requests & Merging](#pull-requests--merging)
+    - [Development Branch](#development-branch)
+    - [Master Branch](#master-branch)
+- [🚀 Development Workflow](#-development-workflow)
   - [Get Started Developing](#get-started-developing)
   - [Commit Messages](#commit-messages)
   - [Pushing Changes](#pushing-changes)
-- [Code Style Guide](#code-style-guide)
+- [💅 Code Style Guide](#-code-style-guide)
   - [HTML formatting and style rules](#html-formatting-and-style-rules)
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
   - [JavaScript formatting and style rules](#javascript-formatting-and-style-rules)
 
-## Sprint 1 Objectives
+## 🏆 Team Goals
 
-- [ ] Learn any new technologies for your project
-- [ ] Set up the project and push it to GitHub
-- [ ] Set up local development environments for each teammate.
-- [ ] Break down the project, create backlog, and use it as a roadmap for the remainder of the project.
-- [ ] Set up project management tools
-- [ ] Add tasks needed to reach MVP status to your project backlog. Since you'll be following Agile principles, the backlog won't be complete until the latter part of the project. The team will continuously revise it in each sprint.
-- [ ] Designing project using a mockup tool.
+- Develop and deploy a working MVP.
+- Gain significant confidence using Github & Git in collaborative coding projects.
+- Become more comfortable and efficient with page layouts.
+
+## 🤝 Team Agreements
+
+- A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
+- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
+
 - [ ] What does success look like for your team?
 - [ ] How will you make decisions?
 - [ ] And how will you deal with conflict?
 
-### Git Strategy <!-- omit in toc -->
-
-- [x] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
-- [x] Will you be using GitHub's Pull Request?
-- [x] Code Merge Process
-- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
-- [x] Will there be a mandatory code review by one other person before merging?
-- [x] What happens if there are merge conflicts?
-
-#### Pull Requests & Merging
-
-- All Pull Requests and code merges will take place in the project's Github repo.
-
-##### Development
-
-- Working branches will be merged into the development branch during weekly development.
-- At least one team member other than the requester must review and approve a request before it can be merged.
-- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
-- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
-
-##### Master Branch
-
-- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
-- All team members must approve a request for merging into the master branch.
-
-## Team Goals
-
-- Develop and deploy a working MVP.
-
-- Gain significant confidence using Github & Git in collaborative coding projects.
-
-- Become more comfortable and efficient with page layouts.
-
-## Team Agreements
-
-- A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
-
-- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
-
-## Project Information
+## ✅ Project Information
 
 ### About
 
@@ -122,9 +88,29 @@ TBA info will go here
 
 TBA info will go here
 
-## Development Workflow
+## 🔀 Git Strategy
 
-A three-level hierarchy of branches is created, through which changes are promoted.
+- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
+
+### Pull Requests & Merging
+
+- All Pull Requests and code merging will take place in the project's Github repo.
+
+#### Development Branch
+
+- Working branches will be merged into the development branch during weekly development.
+- At least one team member other than the requester must review and approve a request before it can be merged.
+- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
+- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
+
+#### Master Branch
+
+- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
+- All team members must approve a request for merging into the master branch.
+
+## 🚀 Development Workflow
+
+A three-level hierarchy of branches is used, through which changes are promoted.
 
 - **Working branches:** Individual branches created by each developer when they are working on changes and bug fixes. The type can be one of these types:
 
@@ -172,7 +158,7 @@ A three-level hierarchy of branches is created, through which changes are promot
 
    - Install Babel plugin
    - Install Prettier plugin
-   - In VS Code global settings, make sure auto format on save is checked on.
+   - In VS Code global settings, make sure "auto format on save" is checked on.
    - In Prettier plugin settings, turn on single quote and semi colons.
 
 6. Work and make commits on local feature branch.
@@ -245,9 +231,11 @@ footer
 
 ![The Workflow](https://github.com/Chingu-cohorts/voyage-wiki/raw/development/images/Git%20Workflow.png)
 
-## Code Style Guide
+## 💅 Code Style Guide
 
-This project uses a Prettier configuration file to format HTML & CSS, and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+
+The following rules are enforced:
 
 ### HTML formatting and style rules
 
