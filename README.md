@@ -4,7 +4,6 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Sprint 1 Objectives](#sprint-1-objectives)
 - [Team Goals](#team-goals)
 - [Team Agreements](#team-agreements)
 - [Project Information](#project-information)
@@ -14,6 +13,10 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
   - [User Stories](#user-stories)
   - [Tech Stack](#tech-stack)
   - [Design Mockup](#design-mockup)
+- [Git Strategy](#git-strategy)
+  - [Pull Requests & Merging](#pull-requests--merging)
+    - [Development](#development)
+    - [Master Branch](#master-branch)
 - [Development Workflow](#development-workflow)
   - [Get Started Developing](#get-started-developing)
   - [Commit Messages](#commit-messages)
@@ -22,31 +25,6 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
   - [HTML formatting and style rules](#html-formatting-and-style-rules)
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
   - [JavaScript formatting and style rules](#javascript-formatting-and-style-rules)
-
-### Git Strategy <!-- omit in toc -->
-
-- [x] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
-- [x] Will you be using GitHub's Pull Request?
-- [x] Code Merge Process
-- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
-- [x] Will there be a mandatory code review by one other person before merging?
-- [x] What happens if there are merge conflicts?
-
-#### Pull Requests & Merging
-
-- All Pull Requests and code merges will take place in the project's Github repo.
-
-##### Development
-
-- Working branches will be merged into the development branch during weekly development.
-- At least one team member other than the requester must review and approve a request before it can be merged.
-- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
-- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
-
-##### Master Branch
-
-- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
-- All team members must approve a request for merging into the master branch.
 
 ## Team Goals
 
@@ -57,7 +35,6 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 ## Team Agreements
 
 - A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
-
 - A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
 
 - [ ] What does success look like for your team?
@@ -112,6 +89,26 @@ TBA info will go here
 ### Design Mockup
 
 TBA info will go here
+
+## Git Strategy
+
+- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
+
+### Pull Requests & Merging
+
+- All Pull Requests and code merging will take place in the project's Github repo.
+
+#### Development
+
+- Working branches will be merged into the development branch during weekly development.
+- At least one team member other than the requester must review and approve a request before it can be merged.
+- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
+- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
+
+#### Master Branch
+
+- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
+- All team members must approve a request for merging into the master branch.
 
 ## Development Workflow
 
