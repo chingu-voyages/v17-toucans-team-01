@@ -90,11 +90,10 @@ TBA info will go here
 
 ## 🔀 Git Strategy
 
-- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
-
 ### Pull Requests & Merging
 
 - All Pull Requests and code merging will take place in the project's Github repo.
+- To reduce merge conflicts, the destination branch should be pulled into the merging branch prior to opening a pull request.
 
 #### Development Branch
 
