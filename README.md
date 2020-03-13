@@ -2,9 +2,8 @@
 
 Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <https://twitter.com/ChinguCollabs>
 
-## 📚 Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [📚 Table of Contents](#-table-of-contents)
 - [🏆 Team Goals](#-team-goals)
 - [🤝 Team Agreements](#-team-agreements)
 - [✅ Project Information](#-project-information)
