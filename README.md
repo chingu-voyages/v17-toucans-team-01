@@ -38,14 +38,28 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ### Git Strategy <!-- omit in toc -->
 
-- [ ] Pull Requests
-  - at least one team member has to review code before it can be approved.?
-- [ ] Code Merge Process
-- [ ] Will you be using GitHub's Pull Request?
+- [x] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
+- [x] Will you be using GitHub's Pull Request?
+- [x] Code Merge Process
 - [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
-- [ ] Will there be a mandatory code review by one other person before merging?
-- [ ] What happens if there are merge conflicts?
-- [ ] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
+- [x] Will there be a mandatory code review by one other person before merging?
+- [x] What happens if there are merge conflicts?
+
+#### Pull Requests & Merging
+
+- All Pull Requests and code merges will take place in the project's Github repo.
+
+##### Development
+
+- Working branches will be merged into the development branch during weekly development.
+- At least one team member other than the requester must review and approve a request before it can be merged.
+- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
+- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
+
+##### Master Branch
+
+- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
+- All team members must approve a request for merging into the master branch.
 
 ## Team Goals
 
