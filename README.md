@@ -79,6 +79,7 @@ TBA info will go here
 
 - All Pull Requests and code merging will take place in the project's Github repo.
 - To reduce merge conflicts, the destination branch should be pulled into the merging branch prior to opening a pull request.
+- To test changes and review a PR locally before approving it, [read modifying an active pull request locally](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/checking-out-pull-requests-locally#modifying-an-active-pull-request-locally). For the purposes of testing, just use the commands in "Step 1" which brings the PR local. After testing, you can go back to Github and approve or comment on the PR.
 
 #### Development Branch
 
