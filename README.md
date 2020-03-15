@@ -49,7 +49,21 @@ This project is a clone of the [mouseless.app](mouseless.app) product webpage. T
 
 ### MVP Definition
 
-- [ ] Create a simple, concise statement of what your application will achieve and the value it has to its users. Every function and feature in the application should reinforce this goal.
+The MVP will be a visual clone of the site's landing page. It will keep the same aesthetic as the original site and provide a simple and clean interface for users to both learn about and buy the product across different device sizes. The following features are to be included:
+
+- Every section from the original page will be cloned.
+- The page is fully responsive with breakpoints for mobile, tablet, and desktop views.
+- The testimonial section features both click and drag and auto scroll movement.
+- A dynamic countdown timer for the sale price. The timer resets to 11 hours everyday at 12am PST.
+- FAQ section with hidden dropdown answers for each question. Clicking each question's icon will reveal the answer.
+- Features section with 4X3 icon grid.
+- Custom colored vertical scroll bar.
+
+#### Stretch Goals
+
+- Buy button that links to a payment page.
+- Icons in grid section flip randomly.
+- Implement a shortcuts page, for [example](https://mouseless.app/webflow-keyboard-shortcuts)
 
 ### Included Functions & Features
 
