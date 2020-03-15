@@ -65,38 +65,9 @@ The MVP will be a visual clone of the site's landing page. It will keep the same
 - Icons in grid section flip randomly.
 - Implement a shortcuts page, for [example](https://mouseless.app/webflow-keyboard-shortcuts)
 
-### Included Functions & Features
-
-- [ ] List the functions you want to include in the application. Prioritize them by identifying which are needs and which are wants.
-- [ ] List the features in each function and prioritize them in the same manner. Identify which are needs and which are wants.
-
-### User Stories
-
-- [ ] Define the attributes and roles of your end users and match them to your features and functions. This helps ensure that the app will have a logical flow, and more importantly, that it meets all user needs.
-
-```text
-I WANT TO review and practice data structures and algorithms on a daily,
-SO I can perform well on technical interviews.
-```
-
-```text
-I WANT TO review the piece of concept first and then practice
-SO I retain the information
-```
-
-```text
-I WANT TO receive a new session everyday on related topics,
-SO my learning experience circular
-```
-
-```text
-I WANT every session TO BE short (15-30 mins),
-SO I can practice multiple times a day
-```
-
 ### Tech Stack
 
-TBA info will go here
+The site is static with no server or database. Only vanilla HTML/CSS/JS will be used.
 
 ### Design Mockup
 
@@ -127,7 +98,7 @@ A three-level hierarchy of branches is used, through which changes are promoted.
 
 - **Working branches:** Individual branches created by each developer when they are working on changes and bug fixes. The type can be one of these types:
 
-  - **feat:** a new feature
+  - **feature:** a new feature
   - **fix:** a bug fix
   - **docs:** changes to documentation
   - **style:** formatting, missing semi colons, etc; no code change
