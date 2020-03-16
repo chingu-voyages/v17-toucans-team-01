@@ -257,7 +257,7 @@ The following rules are enforced:
 - The code does not have trailing white spaces.
 - Indentation is consistent (2 spaces).
 - Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
-- Mark 'todos and action items with `TODO:`
+- Mark 'todo and action items with `TODO:`
 - When declaring variables, declare variables with `const`, first. If needed, reassign the variable using `let`. There isn't a good reason to use the var keyword anymore for variable declaration.
 - **Always use semicolons:**
 
