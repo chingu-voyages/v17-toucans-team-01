@@ -71,7 +71,7 @@ The site is static with no server or database. Only vanilla HTML/CSS/JS will be 
 
 ### Design Mockup
 
-TBA info will go here
+Wireframes for the project can be viewed on [Sketch Cloud](https://sketch.cloud/s/z39Jr).
 
 ## 🔀 Git Strategy
 
