@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: ArchivoNarrow-Regular
+font link: https://fonts.google.com/specimen/Archivo+Narrow
+font author: Omnibus-Type
+font author site: http://www.omnibus-type.com/
+
+
+icon designer: Thomas Le Bas
+icon designer link: /tlb
+        
+{"bg":"#FFEDAF","icon":"#722E18","font":"#C3A757","slogan":"#d7bb6b"}
+      
