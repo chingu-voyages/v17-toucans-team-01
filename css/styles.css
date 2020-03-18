@@ -1,3 +1,103 @@
+/* Main Yellow = #fdd231 */
+
+body {
+  background-color: #fdd231;
+}
+
+/* Section Nav */
+.app__header {
+  position: relative;
+  z-index: 2;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+}
+
+header {
+  display: block;
+}
+
+.navigation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #121212;
+}
+
+div {
+  display: block;
+}
+
+.navigation__inner {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 66rem;
+  margin: 0px auto 0px auto;
+}
+
+.navigation__logo {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+}
+
+.navigation__icon {
+  width: 3rem;
+  height: auto;
+}
+
+.navigation__menu {
+  display: flex;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+.navigation__link {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  font-weight: 700;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navigation__menu ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+
 h1 {
   color: red;
 }
