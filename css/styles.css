@@ -2,6 +2,7 @@
 
 body {
   background-color: #fdd231;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Section Nav */
@@ -18,7 +19,7 @@ body {
   outline: none;
 }
 
-header {
+/* header {
   display: block;
 }
 
@@ -78,16 +79,6 @@ a {
   text-decoration-color: initial;
 }
 
-
-
-
-
-
-
-
-
-
-
 .navigation__menu ul {
   padding: 0px;
   margin: 0px;
@@ -97,7 +88,47 @@ a {
   width: 100%;
 }
 
-
 h1 {
   color: red;
+} */
+
+/* HERO SECTION */
+
+section {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin: 30px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgba(18, 18, 18, 0.5);
+  margin: 30px;
+}
+
+.hero-content {
+  display: block;
+  text-align: center;
+}
+
+section button {
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  background: #f2f2f2;
+  font-weight: 800;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+button span {
+  color: #28c941;
 }
