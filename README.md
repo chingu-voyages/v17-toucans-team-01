@@ -4,64 +4,44 @@ Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <http
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Sprint 1 Objectives](#sprint-1-objectives)
-- [Team Goals](#team-goals)
-- [Team Agreements](#team-agreements)
-- [Project Information](#project-information)
+- [🏆 Team Goals](#-team-goals)
+- [🤝 Team Agreements](#-team-agreements)
+- [✅ Project Information](#-project-information)
   - [About](#about)
   - [MVP Definition](#mvp-definition)
   - [Included Functions & Features](#included-functions--features)
   - [User Stories](#user-stories)
   - [Tech Stack](#tech-stack)
   - [Design Mockup](#design-mockup)
-- [Development Workflow](#development-workflow)
+- [🔀 Git Strategy](#-git-strategy)
+  - [Pull Requests & Merging](#pull-requests--merging)
+    - [Development Branch](#development-branch)
+    - [Master Branch](#master-branch)
+- [🚀 Development Workflow](#-development-workflow)
   - [Get Started Developing](#get-started-developing)
   - [Commit Messages](#commit-messages)
   - [Pushing Changes](#pushing-changes)
-- [Code Style Guide](#code-style-guide)
+- [💅 Code Style Guide](#-code-style-guide)
   - [HTML formatting and style rules](#html-formatting-and-style-rules)
   - [CSS formatting and style rules](#css-formatting-and-style-rules)
   - [JavaScript formatting and style rules](#javascript-formatting-and-style-rules)
 
-## Sprint 1 Objectives
+## 🏆 Team Goals
 
-- [ ] Learn any new technologies for your project
-- [ ] Set up the project and push it to GitHub
-- [ ] Set up local development environments for each teammate.
-- [ ] Break down the project, create backlog, and use it as a roadmap for the remainder of the project.
-- [ ] Set up project management tools
-- [ ] Add tasks needed to reach MVP status to your project backlog. Since you'll be following Agile principles, the backlog won't be complete until the latter part of the project. The team will continuously revise it in each sprint.
-- [ ] Designing project using a mockup tool.
+- Develop and deploy a working MVP.
+- Gain significant confidence using Github & Git in collaborative coding projects.
+- Become more comfortable and efficient with page layouts.
+
+## 🤝 Team Agreements
+
+- A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 4PM EST / 1PM PST. This meeting is time boxed to one hour.
+- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via Discord team channel to teammates by 10PM PST each Friday before the Sunday Meeting. Conor will prepare the agenda for 3/15; Weilan for 3/22; and Robbie for 3/29.
+
 - [ ] What does success look like for your team?
 - [ ] How will you make decisions?
 - [ ] And how will you deal with conflict?
 
-### Git Strategy <!-- omit in toc -->
-
-- [ ] Pull Requests
-  - at least one team member has to review code before it can be approved.?
-- [ ] Code Merge Process
-- [ ] Will you be using GitHub's Pull Request?
-- [ ] Will you pull the destination branch into your branch first? Or just attempt to merge straight in?
-- [ ] Will there be a mandatory code review by one other person before merging?
-- [ ] What happens if there are merge conflicts?
-- [ ] Can the Pull Request be merged by anyone? Or just the Project Manager? Or only by the person in charge of that code section?
-
-## Team Goals
-
-- Develop and deploy a working MVP.
-
-- Gain significant confidence using Github & Git in collaborative coding projects.
-
-- Become more comfortable and efficient with page layouts.
-
-## Team Agreements
-
-- A Weekly Sprint Planning Meeting is held on Google Hangouts every Sunday at 10AM EST / 1PM PST. This meeting is time boxed to one hour.
-
-- A meeting agenda will be created on a rotating basis for each sprint planning meeting. The meeting agenda is to be sent via ??? to teammates by ??? each Friday before the Sunday Meeting.
-
-## Project Information
+## ✅ Project Information
 
 ### About
 
@@ -69,52 +49,57 @@ This project is a clone of the [mouseless.app](mouseless.app) product webpage. T
 
 ### MVP Definition
 
-- [ ] Create a simple, concise statement of what your application will achieve and the value it has to its users. Every function and feature in the application should reinforce this goal.
+The MVP will be a visual clone of the site's landing page. It will keep the same aesthetic as the original site and provide a simple and clean interface for users to both learn about and buy the product across different device sizes. The following features are to be included:
 
-### Included Functions & Features
+- Every section from the original page will be cloned.
+- The page is fully responsive with breakpoints for mobile, tablet, and desktop views.
+- The testimonial section features both click and drag and auto scroll movement.
+- A dynamic countdown timer for the sale price. The timer resets to 11 hours everyday at 12am PST.
+- FAQ section with hidden dropdown answers for each question. Clicking each question's icon will reveal the answer.
+- Features section with 4X3 icon grid.
+- Custom colored vertical scroll bar.
 
-- [ ] List the functions you want to include in the application. Prioritize them by identifying which are needs and which are wants.
-- [ ] List the features in each function and prioritize them in the same manner. Identify which are needs and which are wants.
+#### Stretch Goals
 
-### User Stories
-
-- [ ] Define the attributes and roles of your end users and match them to your features and functions. This helps ensure that the app will have a logical flow, and more importantly, that it meets all user needs.
-
-```text
-I WANT TO review and practice data structures and algorithms on a daily,
-SO I can perform well on technical interviews.
-```
-
-```text
-I WANT TO review the piece of concept first and then practice
-SO I retain the information
-```
-
-```text
-I WANT TO receive a new session everyday on related topics,
-SO my learning experience circular
-```
-
-```text
-I WANT every session TO BE short (15-30 mins),
-SO I can practice multiple times a day
-```
+- Buy button that links to a payment page.
+- Icons in grid section flip randomly.
+- Implement a shortcuts page, for [example](https://mouseless.app/webflow-keyboard-shortcuts)
 
 ### Tech Stack
 
-TBA info will go here
+The site is static with no server or database. Only vanilla HTML/CSS/JS will be used.
 
 ### Design Mockup
 
-TBA info will go here
+Wireframes for the project can be viewed on [Sketch Cloud](https://sketch.cloud/s/z39Jr).
 
-## Development Workflow
+## 🔀 Git Strategy
 
-A three-level hierarchy of branches is created, through which changes are promoted.
+### Pull Requests & Merging
+
+- All Pull Requests and code merging will take place in the project's Github repo.
+- To reduce merge conflicts, the destination branch should be pulled into the merging branch prior to opening a pull request.
+- To test changes and review a PR locally before approving it, [read modifying an active pull request locally](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/checking-out-pull-requests-locally#modifying-an-active-pull-request-locally). For the purposes of testing, just use the commands in "Step 1" which brings the PR local. After testing, you can go back to Github and approve or comment on the PR.
+
+#### Development Branch
+
+- Working branches will be merged into the development branch during weekly development.
+- At least one team member other than the requester must review and approve a request before it can be merged.
+- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
+- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
+
+#### Master Branch
+
+- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
+- All team members must approve a request for merging into the master branch.
+
+## 🚀 Development Workflow
+
+A three-level hierarchy of branches is used, through which changes are promoted.
 
 - **Working branches:** Individual branches created by each developer when they are working on changes and bug fixes. The type can be one of these types:
 
-  - **feat:** a new feature
+  - **feature:** a new feature
   - **fix:** a bug fix
   - **docs:** changes to documentation
   - **style:** formatting, missing semi colons, etc; no code change
@@ -158,7 +143,7 @@ A three-level hierarchy of branches is created, through which changes are promot
 
    - Install Babel plugin
    - Install Prettier plugin
-   - In VS Code global settings, make sure auto format on save is checked on.
+   - In VS Code global settings, make sure "auto format on save" is checked on.
    - In Prettier plugin settings, turn on single quote and semi colons.
 
 6. Work and make commits on local feature branch.
@@ -231,9 +216,11 @@ footer
 
 ![The Workflow](https://github.com/Chingu-cohorts/voyage-wiki/raw/development/images/Git%20Workflow.png)
 
-## Code Style Guide
+## 💅 Code Style Guide
 
-This project uses a Prettier configuration file to format HTML & CSS, and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+
+The following rules are enforced:
 
 ### HTML formatting and style rules
 
@@ -270,7 +257,7 @@ This project uses a Prettier configuration file to format HTML & CSS, and follow
 - The code does not have trailing white spaces.
 - Indentation is consistent (2 spaces).
 - Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
-- Mark 'todos and action items with `TODO:`
+- Mark 'todo and action items with `TODO:`
 - When declaring variables, declare variables with `const`, first. If needed, reassign the variable using `let`. There isn't a good reason to use the var keyword anymore for variable declaration.
 - **Always use semicolons:**
 
