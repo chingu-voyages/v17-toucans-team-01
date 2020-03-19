@@ -1,0 +1,17 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  color: #121212;
+  border-radius: 12px;
+  font-weight: 700;
+  padding: 1rem 1.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 0 0 3px rgba(18, 18, 18, 0), 0 6px 20px rgba(18, 18, 18, 0.1);
+  transition: box-shadow 0.2s ease;
+  white-space: nowrap;
+}
