@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.35rem;
+  background-color: #000;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

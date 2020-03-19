@@ -1,0 +1,91 @@
+.app {
+  overflow: hidden;
+
+  &__header {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__footer {
+  }
+}
+
+.app-section {
+  position: relative;
+
+  &--black {
+    background-color: #000;
+    color: hsla(0, 0%, 94.9%, 0.5);
+
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #f2f2f2;
+    }
+  }
+
+  &--yellow {
+    background-color: #fdd231;
+    color: rgba(18, 18, 18, 0.5);
+
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #121212;
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    padding: 4rem 1.5rem;
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+
+  &__wave {
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: 0;
+    width: calc(100% + 1px);
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .app-section__inner {
+    padding: 8rem 3rem;
+  }
+}
+
+main > .app-section:first-child .app-section__inner {
+  padding-top: 8rem;
+}
+
+@media screen and (min-width: 700px) {
+  main > .app-section:first-child .app-section__inner {
+    padding-top: 12rem;
+  }
+}
+
+.app-section--black + .app-section--black .app-section__inner,
+.app-section.has-wave .app-section__inner,
+:not(main) > .app-section:first-child .app-section__inner {
+  padding-top: 0;
+}
