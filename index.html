@@ -14,6 +14,8 @@
 <body>
 <div class="app">
   <header class="app__header">
+
+    <!-- Nav -->
     <div class="navigation">
       <div class="navigation__inner">
         <a href="/" class="navigation__logo" active--exact active">
@@ -22,12 +24,12 @@
           </a>
           <ul class="navigation__menu">
             <li class="navigation__item">
-              <a href="#" class="navigation__link"
+              <a href="#" class="navigation__link active active--exact active"
                 >Features</a
               >
             </li>
             <li class="navigation__item">
-              <a href="#" class="navigation__link"
+              <a href="#download" class="navigation__link"
                 >Download</a
               >
             </li>
@@ -37,32 +39,34 @@
               >
             </li>
           </ul>
-
       </div>
   
     </div>
   </header>
   <main class="app__content">
 
-
+<!-- Section 1: Hero -->
     <section class="app-section app-section--yellow">
       <div class="app-section__inner">
         <div class="banner">
-          Unleash your keyboard’s superpower
+          <h1 class="heading-primary">Unleash your keyboard’s superpower</h1>
         </div>
         <p>
           Wading through shortcuts, and it’s too hard to remember any? Get those keystrokes ingrained in your muscle memory for good.
         </p>
+        <div class="countdown-button has-discount"></div>
       </div>
     </section>
 
+    <!-- Section 2: Video -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         VIDEO GOES HERE
       </div>
     </section>   
     
-    <section class="app-section app-section--black">
+    <!-- Section 3: Split Text Right -->
+    <section class="app-section app-section--black" id="features">
       <div class="app-section__inner">
         <div class="split">
           <div class="split__media">Img goes here</div>
@@ -71,6 +75,7 @@
       </div>
     </section>   
 
+    <!-- Section 4: Split Text Left -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="split is-flipped">
@@ -80,6 +85,7 @@
       </div>
     </section>   
 
+       <!-- Section 5: Text Full -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="blob-text">
@@ -88,6 +94,7 @@
       </div>
     </section>   
 
+       <!-- Section 6: Split Text Right -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="split">
@@ -97,7 +104,7 @@
       </div>
     </section>   
 
-
+   <!-- Section 7: Split Icon Grid -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="split is-flipped">
@@ -107,6 +114,7 @@
       </div>
     </section>   
 
+       <!-- Section 8: Three Column Features -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="row">
@@ -123,6 +131,7 @@
       </div>
     </section>   
 
+       <!-- Section 9: Testimonials -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="testimonials">
@@ -135,6 +144,7 @@
       </div>
     </section>   
 
+          <!-- Section 10: Call to action -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
        <div class="call-to-action">
@@ -147,6 +157,7 @@
       </div>
     </section>   
 
+         <!-- Section 11: FAQ -->
     <section class="app-section app-section--black">
       <div class="app-section__inner">
           <h2>FAQ</h2>
@@ -159,9 +170,9 @@
             </div>
           </div>
       </div>
-    </section>   
-
-    <section class="app-section app-section--black">
+    </section>
+    <!-- Section 12: Download -->
+    <section class="app-section app-section--black" id="download">
       <div class="app-section__inner">
         <h2>Download</h2>
         <div class="download-button">Button1</div>
@@ -171,11 +182,14 @@
     
   </main>
 
+  <!-- Footer -->
   <footer class="app__footer">
 
     <section class="app-section app-section--black">
       <div class="app-section__inner">
         <div class="app-footer small">
+
+          <!-- Top Footer: App Shortcuts -->
           <div class="app-footer__section app-footer__apps">
             <div class="app-footer__app">
               <a href="#">App Link</a>
@@ -192,7 +206,9 @@
             <div class="app-footer__app">
               <a href="#">App Link</a>
             </div>
+
           </div>
+          <!-- Bottom Footer: App Shortcuts -->
           <div class="app-footer__section">
             <div class="row">
               <div class="col-1-of-2">
@@ -225,8 +241,6 @@
         </div>
       </div>
     </section>  
-
-      
   </footer>
 
 </div>

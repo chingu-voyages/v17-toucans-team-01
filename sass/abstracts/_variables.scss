@@ -1,19 +1,20 @@
 //COLORS
 $color-primary: #fdd231;
-
 $color-primary-dark: rgba(253, 210, 49, 0.2);
 
-$color-alert-success: #28c941;
-
-$color-grey-1: hsla(0, 0%, 94.9%, 0.5);
-$color-grey-2: rgba(18, 18, 18, 0.05);
-$color-grey-3: hsla(0, 0%, 94.9%, 0.06);
-
 $color-white: #f2f2f2;
+$color-black-light: #121212;
 $color-black: #000;
 
+$color-green: #28c941;
+
+$color-grey-transparent: rgba(18, 18, 18, 0.05);
+$color-grey-light: hsla(0%, 0%, 94.9%, 0.5);
+$color-grey-medium: hsla(0%, 0%, 94.9%, 0.06);
+$color-grey-dark: rgba(18, 18, 18, 0.5);
+
 //FONT SIZES
-$default-font-size: 1.6rem;
+$default-font-size: 1.35rem;
 
 //GRID
 $grid-width: 114rem;

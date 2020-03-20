@@ -1,26 +1,22 @@
 .split {
-  &__media {
-    margin-bottom: 2rem;
-  }
-}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-@media screen and (min-width: 700px) {
-  .split {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .split__text {
+  &__text {
     width: 53%;
   }
 
-  .split__media {
+  &__media {
     width: 35%;
     margin: 0;
   }
 
-  .split.is-flipped {
+  &.is-flipped {
     flex-direction: row-reverse;
+  }
+
+  &__media {
+    margin-bottom: 2rem;
   }
 }
