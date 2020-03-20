@@ -1,17 +1,4 @@
 .blob-text {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100%;
-
   &__content {
-    color: #f2f2f2;
-    margin: 0 auto;
-    max-width: 40rem;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .blob-text {
-    padding: 4rem 0;
   }
 }

@@ -1,3 +1,7 @@
+main > .app-section:first-child .app-section__inner {
+  padding-top: 12rem;
+}
+
 .app {
   overflow: hidden;
 
@@ -19,8 +23,8 @@
   position: relative;
 
   &--black {
-    background-color: #000;
-    color: hsla(0, 0%, 94.9%, 0.5);
+    background-color: $color-black;
+    color: $color-grey-light;
 
     & h1,
     h2,
@@ -28,13 +32,13 @@
     h4,
     h5,
     h6 {
-      color: #f2f2f2;
+      color: $color-white;
     }
   }
 
   &--yellow {
-    background-color: #fdd231;
-    color: rgba(18, 18, 18, 0.5);
+    background-color: $color-primary;
+    color: $color-grey-dark;
 
     & h1,
     h2,
@@ -42,14 +46,14 @@
     h4,
     h5,
     h6 {
-      color: #121212;
+      color: $color-black-light;
     }
   }
 
   &__inner {
     position: relative;
     z-index: 2;
-    padding: 4rem 1.5rem;
+    padding: 8rem 3rem;
     max-width: 66rem;
     margin: 0 auto;
   }
@@ -65,22 +69,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .app-section__inner {
-    padding: 8rem 3rem;
-  }
-}
-
-main > .app-section:first-child .app-section__inner {
-  padding-top: 8rem;
-}
-
-@media screen and (min-width: 700px) {
-  main > .app-section:first-child .app-section__inner {
-    padding-top: 12rem;
   }
 }
 

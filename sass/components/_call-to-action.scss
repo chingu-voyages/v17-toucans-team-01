@@ -1,8 +1,8 @@
 .call-to-action {
   display: flex;
   flex-direction: column;
-  background-color: #fdd231;
-  color: rgba(18, 18, 18, 0.5);
+  background-color: $color-primary;
+  color: $color-grey-dark;
   padding: 2rem;
   border-radius: 24px;
 
