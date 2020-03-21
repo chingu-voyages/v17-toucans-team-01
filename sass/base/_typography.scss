@@ -1,0 +1,23 @@
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.4;
+  color: $color-grey-light;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.heading-secondary {
+}
+
+.heading-tertiary {
+}
+
+.paragraph {
+  font-size: $default-font-size;
+  margin: 1rem 0;
+}

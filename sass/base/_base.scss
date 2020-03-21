@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //This defines what 1rem is.  100% = 16px.
+  //The entire layout depends on this one value;
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: $default-font-size;
+  background-color: $color-black;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

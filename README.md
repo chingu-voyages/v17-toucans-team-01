@@ -67,7 +67,11 @@ The MVP will be a visual clone of the site's landing page. It will keep the same
 
 ### Tech Stack
 
+
 The site is static with no server or database. Only vanilla HTML/CSS/JS will be used.
+=======
+The site is static with no server or database. Only vanilla HTML/CSS/JS will be used except Sass(SCSS) is used for preprocessing styles.
+
 
 ### Design Mockup
 
@@ -83,6 +87,7 @@ Wireframes for the project can be viewed on [Sketch Cloud](https://sketch.cloud/
 
 #### Development Branch
 
+
 - Working branches will be merged into the development branch during weekly development.
 - At least one team member other than the requester must review and approve a request before it can be merged.
 - After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
@@ -94,6 +99,21 @@ Wireframes for the project can be viewed on [Sketch Cloud](https://sketch.cloud/
 - All team members must approve a request for merging into the master branch.
 
 ## 🚀 Development Workflow
+
+=======
+
+- Working branches will be merged into the development branch during weekly development.
+- At least one team member other than the requester must review and approve a request before it can be merged.
+- After the merge has been approved, the requester will perform the merge on Github and delete the merged branch from the repository upon a successful merge.
+- If any merge conflicts occur, the requester must work with the author of the conflicting code to resolve them and re-submit the PR for approval.
+
+#### Master Branch
+
+- A PR to merge to the master should reflect the goals of the prior week's sprint and produce an updated MVP. This PR will typically take place following the weekly sprint meeting.
+- All team members must approve a request for merging into the master branch.
+
+## 🚀 Development Workflow
+
 
 A three-level hierarchy of branches is used, through which changes are promoted.
 
@@ -146,7 +166,19 @@ A three-level hierarchy of branches is used, through which changes are promoted.
    - In VS Code global settings, make sure "auto format on save" is checked on.
    - In Prettier plugin settings, turn on single quote and semi colons.
 
-6. Work and make commits on local feature branch.
+6. Install [live server](https://www.npmjs.com/package/live-server) (its' recommended to do so globally):
+
+   ```text
+     npm install -g live-server
+   ```
+
+7. Start the development server
+
+   ```text
+     npm run start
+   ```
+
+8. Work and make commits on local feature branch.
 
 ### Commit Messages
 
@@ -218,7 +250,13 @@ footer
 
 ## 💅 Code Style Guide
 
+
 This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+
+=======
+
+This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
+
 
 The following rules are enforced:
 
@@ -237,20 +275,7 @@ The following rules are enforced:
 
 ### CSS formatting and style rules
 
-- The code does not have trailing white spaces.
-- Indentation is consistent (2 spaces).
-- Code indents all content, that is rules within rules as well as declarations to reflect hierarchy and improve understanding.
-- The code uses a semicolon after every declaration for consistency and extensibility reasons.
-- Code always uses a space after a property name's colon, but no space between property and colon, for consistency reasons.
-- Code always uses a single space between the last selector and the opening brace that begins the declaration block. Code always start a new line for each selector and declaration.
-- Code always put a blank line between rules.
-- Code uses consistent quotation marks for attribute selectors or property values (single).
-- The code uses meaningful or generic ID and class names that are as short as possible, but as long as necessary.
-- The code does not use element names in conjunction with IDs or classes.
-- The code uses shorthand properties where possible.
-- Code omits unit specification after 0 values.
-- Code uses 3-character hexadecimal notation where possible.
-- Code separates words in ID and class names by a hyphen.
+-[ ] need to update for BEM/ SASS.
 
 ### JavaScript formatting and style rules
 

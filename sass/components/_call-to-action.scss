@@ -1,0 +1,14 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-primary;
+  color: $color-grey-dark;
+  padding: 2rem;
+  border-radius: 24px;
+
+  &__media {
+  }
+
+  &__content {
+  }
+}
