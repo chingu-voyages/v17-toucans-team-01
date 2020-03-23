@@ -19,3 +19,12 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
