@@ -5,10 +5,10 @@
     margin-top: 0;
   }
 
-  &__column {
-    padding: 0 0 2.5rem 2.5rem;
-    margin: 0;
-  }
+  // &__column {
+  //   padding: 0 0 2.5rem 2.5rem;
+  //   margin: 0;
+  // }
 
   &__header {
     display: flex;
@@ -42,6 +42,12 @@
     height: 0;
     overflow: hidden;
     opacity: 0;
+
+    &--visible {
+      height: 100%;
+      overflow: visible;
+      opacity: 1;
+    }
   }
 
   &__content {
