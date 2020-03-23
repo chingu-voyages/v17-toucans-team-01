@@ -1,4 +1,88 @@
-.blob-text {
+main {
+  > .app-section {
+    &:first-child {
+      &__inner {
+        padding-top: 12rem;
+      }
+    }
+  }
+}
+
+&:not(main) {
+  > .app-section {
+    &:first-child {
+      &__inner {
+        padding-top: 0;
+      }
+    }
+  }
+}
+
+.app {
+  overflow: hidden;
+
+  &__header {
+    position: relative;
+    z-index: 2;
+  }
+
   &__content {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.app-section {
+  position: relative;
+
+  &--black {
+    background-color: $color-black;
+    color: $color-grey-light;
+
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $color-white;
+    }
+  }
+
+  &--yellow {
+    background-color: $color-primary;
+    color: $color-grey-dark;
+
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $color-black-light;
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    padding: 8rem 3rem;
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+
+  &__wave {
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: 0;
+    width: calc(100% + 1px);
+    height: auto;
+    user-select: none;
+  }
+}
+.has-wave {
+  &__inner {
+    padding-top: 0;
   }
 }
