@@ -8,16 +8,6 @@ main {
   }
 }
 
-&:not(main) {
-  > .app-section {
-    &:first-child {
-      &__inner {
-        padding-top: 0;
-      }
-    }
-  }
-}
-
 .app {
   overflow: hidden;
 
@@ -29,6 +19,16 @@ main {
   &__content {
     position: relative;
     z-index: 1;
+  }
+
+  &:not(main) {
+    > .app-section {
+      &:first-child {
+        &__inner {
+          padding-top: 0;
+        }
+      }
+    }
   }
 }
 
