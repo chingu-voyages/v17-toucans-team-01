@@ -152,6 +152,19 @@ main > .app-section:first-child .app-section__inner {
   padding: 2rem 0;
   border-bottom: 2px solid rgba(242, 242, 242, 0.1); }
 
+.app-footer__apps {
+  column-count: 4;
+  column-gap: 2.5rem; }
+
+.app-footer__app {
+  display: inline-block;
+  width: 100%;
+  margin: 0.4rem 0; }
+
+.app-footer__link:link, .app-footer__link:visited {
+  text-decoration: none;
+  color: inherit; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
