@@ -163,6 +163,42 @@ small {
     .icon > svg * {
       fill: inherit; }
 
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: -0.5rem;
+  max-width: 22rem; }
+  .logo-grid__item {
+    width: 25%;
+    padding: 0.5rem; }
+
+.logo {
+  perspective: 300px; }
+  .logo__inner {
+    height: 0;
+    padding-bottom: 100%; }
+  .logo__back, .logo__card, .logo__front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .logo__back, .logo__front {
+    z-index: 3; }
+  .logo__card {
+    z-index: 2;
+    background-color: rgba(242, 242, 242, 0.1); }
+  .logo__image {
+    width: 60%;
+    height: 60%;
+    object-fit: contain; }
+
 .testimonials__header {
   max-width: 40rem;
   margin-left: auto;
