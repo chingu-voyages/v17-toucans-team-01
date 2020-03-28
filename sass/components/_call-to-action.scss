@@ -1,14 +1,23 @@
 .call-to-action {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   background-color: $color-primary;
   color: $color-grey-dark;
-  padding: 2rem;
+  padding: 5rem;
+  align-items: center;
   border-radius: 24px;
 
   &__media {
+    width: 35%;
+    flex: 0 0 auto;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
   }
 
   &__content {
+    flex: 1 1 auto;
   }
 }
