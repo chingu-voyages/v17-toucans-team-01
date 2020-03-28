@@ -1,0 +1,43 @@
+.newsletter-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  &__content {
+    background-color: $color-grey-dark-2;
+    border-radius: 9px;
+    padding: 0.4rem;
+    display: flex;
+    width: 100%;
+  }
+
+  &__input {
+    width: 100%;
+    min-width: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    flex: 1 1 auto;
+    padding: 0 0.2rem;
+    color: $color-white;
+
+    input {
+      border: none;
+      background-color: transparent;
+      font: inherit;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    flex: 0 0 auto;
+    background-color: $color-white;
+    color: $color-black;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+  }
+}
