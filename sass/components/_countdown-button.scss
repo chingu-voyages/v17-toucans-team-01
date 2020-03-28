@@ -4,20 +4,39 @@
   max-width: 100%;
   margin: 2rem 0;
 
-  & .has-discount {
+  &.has-discount {
     width: 26rem;
-
-    &__inner {
-      border-radius: 19px;
-      padding: 0.6rem;
-      background-color: $color-grey-dark;
-    }
   }
 
-  & :first-child {
+  &__inner {
+    display: flex;
+    align-items: center;
+    border-radius: 19px;
+    padding: 0.6rem;
+    background-color: $color-grey-transparent;
+    border-radius: 19px;
+  }
+
+  &__countdown {
+    display: flex;
+    margin: 0 0.6rem 0 0;
+    width: 50%;
+  }
+
+  &__button {
+    flex: 1 1 auto;
+    width: 50%;
+  }
+
+  &__item {
+    flex: 1 0 auto;
+    line-height: 1.2;
+  }
+
+  &:first-child {
     margin-top: 0;
   }
-  & :last-child {
+  &:last-child {
     margin-bottom: 0;
   }
 
@@ -26,31 +45,6 @@
     font-size: 0.9rem;
     font-weight: 600;
     font-style: italic;
-  }
-
-  &__inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  &__countdown {
-    display: flex;
-    margin: 0 0 0.6rem;
-  }
-
-  &__button {
-    flex: 1 1 auto;
-  }
-
-  &__button,
-  &__countdown {
-    width: 100%;
-  }
-
-  &__item {
-    flex: 1 0 auto;
-    line-height: 1.2;
   }
 
   &__value {
