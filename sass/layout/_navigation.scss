@@ -1,0 +1,62 @@
+.navigation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: $color-black-light;
+
+  &--bright {
+    color: $color-white;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 66rem;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: auto;
+  }
+
+  &___name {
+    display: block;
+    width: 6.75rem;
+    margin-left: 0.5rem;
+  }
+
+  &__item {
+    margin-left: 1rem;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+  }
+
+  &__link,
+  &:link,
+  &:visited {
+    padding: 0.4rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-black-light;
+
+    &:hover,
+    &:active {
+      background-color: $color-grey-transparent;
+    }
+  }
+}

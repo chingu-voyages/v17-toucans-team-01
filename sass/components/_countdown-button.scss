@@ -1,0 +1,68 @@
+.countdown-button {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 2rem 0;
+
+  &.has-discount {
+    width: 26rem;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    border-radius: 19px;
+    padding: 0.6rem;
+    background-color: $color-grey-transparent;
+    border-radius: 19px;
+  }
+
+  &__countdown {
+    display: flex;
+    margin: 0 0.6rem 0 0;
+    width: 50%;
+  }
+
+  &__button {
+    flex: 1 1 auto;
+    width: 50%;
+  }
+
+  &__item {
+    flex: 1 0 auto;
+    line-height: 1.2;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__discount {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &__value {
+    text-align: center;
+    font-feature-settings: 'tnum' 1;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $color-black-light;
+  }
+
+  &__label {
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  &__price {
+    display: inline-block;
+    padding-left: 0.25rem;
+  }
+}

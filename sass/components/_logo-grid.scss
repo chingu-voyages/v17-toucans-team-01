@@ -1,0 +1,51 @@
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: -0.5rem;
+  max-width: 22rem;
+
+  &__item {
+    width: 25%;
+    padding: 0.5rem;
+  }
+}
+
+.logo {
+  perspective: 300px;
+  &__inner {
+    height: 0;
+    padding-bottom: 100%;
+  }
+
+  &__back,
+  &__card,
+  &__front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__back,
+  &__front {
+    z-index: 3;
+  }
+
+  &__card {
+    z-index: 2;
+    background-color: $color-grey-dark-2;
+  }
+
+  &__image {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
+}

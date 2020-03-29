@@ -1,0 +1,18 @@
+.split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    width: 53%;
+  }
+
+  &__media {
+    width: 35%;
+    margin: 0;
+  }
+
+  &.is-flipped {
+    flex-direction: row-reverse;
+  }
+}
