@@ -461,8 +461,6 @@ main > .app-section:first-child .app-section__inner {
   .app__content {
     position: relative;
     z-index: 1; }
-  .app:not(main) > .app-section:first-child__inner {
-    padding-top: 0; }
 
 .app-section {
   position: relative; }
@@ -503,5 +501,5 @@ main > .app-section:first-child .app-section__inner {
     height: auto;
     user-select: none; }
 
-.has-wave__inner {
+.has-wave .app-section__inner {
   padding-top: 0; }
