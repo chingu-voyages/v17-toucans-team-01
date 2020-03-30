@@ -20,16 +20,6 @@ main {
     position: relative;
     z-index: 1;
   }
-
-  &:not(main) {
-    > .app-section {
-      &:first-child {
-        &__inner {
-          padding-top: 0;
-        }
-      }
-    }
-  }
 }
 
 .app-section {
@@ -85,8 +75,9 @@ main {
     user-select: none;
   }
 }
+
 .has-wave {
-  &__inner {
+  .app-section__inner {
     padding-top: 0;
   }
 }
