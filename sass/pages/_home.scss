@@ -1,7 +1,7 @@
 main {
-  > .app-section {
+  & > .app-section {
     &:first-child {
-      &__inner {
+      .app-section__inner {
         padding-top: 12rem;
       }
     }
@@ -35,6 +35,14 @@ main {
 .app-section {
   position: relative;
 
+  &__inner {
+    position: relative;
+    z-index: 2;
+    padding: 8rem 3rem;
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+
   &--black {
     background-color: $color-black;
     color: $color-grey-light;
@@ -65,14 +73,6 @@ main {
     h6 {
       color: $color-black-light;
     }
-  }
-
-  &__inner {
-    position: relative;
-    z-index: 2;
-    padding: 8rem 3rem;
-    max-width: 66rem;
-    margin: 0 auto;
   }
 
   &__wave {
