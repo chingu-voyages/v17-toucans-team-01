@@ -450,7 +450,7 @@ small {
   .split.is-flipped {
     flex-direction: row-reverse; }
 
-main > .app-section:first-child__inner {
+main > .app-section:first-child .app-section__inner {
   padding-top: 12rem; }
 
 .app {
@@ -466,6 +466,12 @@ main > .app-section:first-child__inner {
 
 .app-section {
   position: relative; }
+  .app-section__inner {
+    position: relative;
+    z-index: 2;
+    padding: 8rem 3rem;
+    max-width: 66rem;
+    margin: 0 auto; }
   .app-section--black {
     background-color: #000;
     color: rgba(242, 242, 242, 0.5); }
@@ -488,12 +494,6 @@ main > .app-section:first-child__inner {
     .app-section--yellow h5,
     .app-section--yellow h6 {
       color: #121212; }
-  .app-section__inner {
-    position: relative;
-    z-index: 2;
-    padding: 8rem 3rem;
-    max-width: 66rem;
-    margin: 0 auto; }
   .app-section__wave {
     position: absolute;
     z-index: 1;
