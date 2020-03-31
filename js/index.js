@@ -16,7 +16,7 @@ function setCountdown() {
   let daysLeft = 0;
   let hoursLeft = 23 - now.getHours();
   let minutesLeft = 59 - now.getMinutes();
-  let secondsLeft = now.getSeconds();
+  let secondsLeft = 59 - now.getSeconds();
 
   // Format 0 prefixes
   if (daysLeft < 10) daysLeft = `0${daysLeft}`;
