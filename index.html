@@ -8,6 +8,7 @@
       content="This page is a clone of the mouseless app."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
     <title>Mouseless</title>
   </head>
   <body>
@@ -553,10 +554,12 @@
                   Take our work for it or see what others are saying:
                 </p>
               </div>
-              <div class="slider is-initialized">
-                <div class="swiper-container swiper-container-horizontal">
-                  <div class="swiper-wrapper">
-                    <div class="testimonials__item swiper-slide">
+
+              <!-- Slider -->
+              <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
                       <img
                         src="assets/images/temirlannugmanov.jpg"
                         class="testimonials__image"
@@ -568,10 +571,12 @@
                           train my meatsticks to never use the trackpad.
                         </div>
                       </div>
-                      <div class="testimonials__title small">Bob Weaver</div>
-                    </div>
+                      <div class="testimonials__title small">
+                        Bob Weaver
+                      </div>
+                    </li>
 
-                    <div class="testimonials__item swiper-slide">
+                    <li class="glide__slide">
                       <img
                         src="assets/images/thomaschretien.jpg"
                         class="testimonials__image"
@@ -588,9 +593,9 @@
                       <div class="testimonials__title small">
                         Thomas Chrétien, pages.xyz
                       </div>
-                    </div>
+                    </li>
 
-                    <div class="testimonials__item swiper-slide">
+                    <li class="glide__slide">
                       <img
                         src="assets/images/erikspiekermann.jpg"
                         class="testimonials__image"
@@ -603,8 +608,8 @@
                       <div class="testimonials__title small">
                         Erik Spiekermann, Typomaniac
                       </div>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -1223,7 +1228,21 @@
         </section>
       </footer>
     </div>
-
     <script src="js/index.js"></script>
+    <script>
+      const glide = new Glide('.glide', {
+        type: 'carousel',
+        focusAt: 'center',
+        perView: 1,
+        gap: 32,
+        // autoplay: 5000,
+        hoverpause: true,
+        peek: {
+          before: 240,
+          after: 240,
+        },
+      });
+      glide.mount();
+    </script>
   </body>
 </html>
