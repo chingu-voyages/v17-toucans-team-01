@@ -6,4 +6,68 @@
     margin-bottom: 4rem;
     text-align: center;
   }
+
+  &__ratings {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6rem;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  &__image {
+    width: 7rem;
+    height: 7rem;
+    margin-top: -3.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  &__text {
+  }
+
+  &__title {
+    color: $color-white;
+  }
+}
+
+.glide__slides {
+  overflow: visible;
+}
+
+.glide__track {
+  overflow: visible;
+}
+
+.glide__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem 3rem;
+  margin: 3rem 1rem 0;
+  width: 30rem;
+  height: auto;
+  max-width: 100%;
+  background-color: $color-grey-medium;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+
+  &--active {
+    filter: none;
+    opacity: 1;
+  }
 }
