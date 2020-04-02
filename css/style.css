@@ -64,9 +64,13 @@ button,
 input,
 textarea {
   background-color: transparent;
-  border: none;
+  border: 0;
   font: inherit;
   color: inherit; }
+  button:focus,
+  input:focus,
+  textarea:focus {
+    outline: none; }
 
 a {
   color: inherit;
