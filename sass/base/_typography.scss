@@ -1,4 +1,27 @@
-@include font-face('Inter', fonts/Inter, bold, italic);
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/assets/fonts/Inter/Inter-Bold.woff2);
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(/assets/fonts/Inter/Inter-Medium.woff2);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(/assets/fonts/Inter/Inter-Regular.woff2);
+}
+
+@font-face {
+  font-family: Inter-SemiBoldItalic;
+  src: url(/assets/fonts/Inter/Inter-SemiBoldItalic.woff2);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(/assets/fonts/Inter/Inter-SemiBold.woff2);
+}
 
 body {
   font-family: Inter, sans-serif;
