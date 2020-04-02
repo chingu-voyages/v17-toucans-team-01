@@ -24,9 +24,13 @@ button,
 input,
 textarea {
   background-color: transparent;
-  border: none;
+  border: 0;
   font: inherit;
   color: inherit;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 a {
