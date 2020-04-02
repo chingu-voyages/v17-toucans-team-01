@@ -1,4 +1,13 @@
 .blob-text {
+  background-image: url(/assets/images/blob.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 4rem 0;
+
   &__content {
+    color: $color-white;
+    margin: 0 auto;
+    max-width: 40rem;
   }
 }
