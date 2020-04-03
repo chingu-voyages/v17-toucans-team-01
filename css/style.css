@@ -312,6 +312,33 @@ small {
   .demo-video video {
     object-fit: contain; }
 
+.download-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem; }
+  .download-button:first-child {
+    margin-left: 0; }
+  .download-button__btn {
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    text-align: left; }
+  .download-button__icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.5rem; }
+  .download-button__content {
+    display: inline-flex;
+    flex-direction: column; }
+  .download-button__label {
+    font-size: 0.7rem; }
+  .download-button__text {
+    font-size: 1.2rem; }
+  .download-button__meta {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600; }
+
 .feature-item__header {
   display: flex;
   margin-bottom: 1rem;
