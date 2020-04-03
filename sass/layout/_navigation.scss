@@ -29,14 +29,10 @@
     height: auto;
   }
 
-  &___name {
+  &__name {
     display: block;
     width: 6.75rem;
     margin-left: 0.5rem;
-  }
-
-  &__item {
-    margin-left: 1rem;
   }
 
   &__menu {
@@ -44,12 +40,16 @@
     list-style: none;
   }
 
+  &__item {
+    margin-left: 1rem;
+  }
+
   &__link,
   &:link,
   &:visited {
-    padding: 0.4rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 9px;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 700;
     text-decoration: none;
     color: $color-black-light;
