@@ -156,7 +156,9 @@ small {
   font-weight: 500; }
 
 .clone {
-  padding-top: 6rem; }
+  text-align: left;
+  margin: 10px 0 auto;
+  padding: 0; }
 
 .green {
   color: #28c941; }
@@ -243,7 +245,8 @@ small {
     flex: 0 0 auto; }
   .call-to-action__image {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin: -2rem -2rem -2rem 2rem; }
   .call-to-action__content {
     flex: 1 1 auto; }
 
