@@ -584,19 +584,19 @@ small {
   .navigation__icon {
     width: 3rem;
     height: auto; }
-  .navigation___name {
+  .navigation__name {
     display: block;
     width: 6.75rem;
     margin-left: 0.5rem; }
-  .navigation__item {
-    margin-left: 1rem; }
   .navigation__menu {
     display: flex;
     list-style: none; }
+  .navigation__item {
+    margin-left: 1rem; }
   .navigation__link, .navigation:link, .navigation:visited {
-    padding: 0.4rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 9px;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 700;
     text-decoration: none;
     color: #121212; }
