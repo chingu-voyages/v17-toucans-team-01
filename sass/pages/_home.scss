@@ -1,7 +1,7 @@
 main {
-  > .app-section {
+  & > .app-section {
     &:first-child {
-      &__inner {
+      .app-section__inner {
         padding-top: 12rem;
       }
     }
@@ -20,20 +20,19 @@ main {
     position: relative;
     z-index: 1;
   }
-
-  &:not(main) {
-    > .app-section {
-      &:first-child {
-        &__inner {
-          padding-top: 0;
-        }
-      }
-    }
-  }
 }
 
 .app-section {
   position: relative;
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    padding: 8rem 3rem;
+    padding-top: 0;
+    max-width: 66rem;
+    margin: 0 auto;
+  }
 
   &--black {
     background-color: $color-black;
@@ -67,14 +66,6 @@ main {
     }
   }
 
-  &__inner {
-    position: relative;
-    z-index: 2;
-    padding: 8rem 3rem;
-    max-width: 66rem;
-    margin: 0 auto;
-  }
-
   &__wave {
     position: absolute;
     z-index: 1;
@@ -85,8 +76,9 @@ main {
     user-select: none;
   }
 }
+
 .has-wave {
-  &__inner {
+  .app-section__inner {
     padding-top: 0;
   }
 }

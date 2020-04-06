@@ -1,3 +1,5 @@
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 
@@ -13,6 +15,7 @@
 @import 'components/call-to-action';
 @import 'components/countdown-button';
 @import 'components/demo-video';
+@import 'components/download-button';
 @import 'components/feature-item';
 @import 'components/icon';
 @import 'components/logo-grid';

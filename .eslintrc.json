@@ -11,5 +11,9 @@
     "func-names": "off",
     "no-process-exit": "off",
     "class-methods-use-this": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
   }
 }

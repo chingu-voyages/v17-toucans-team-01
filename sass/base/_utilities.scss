@@ -5,10 +5,14 @@ small {
   font-weight: 500;
 }
 
-
 .clone {
-  padding-top: 6rem;
+  text-align: left;
+  margin: 10px 0 auto;
+  padding: 0;
 }
 .green {
   color: $color-green;
+}
+.yellow {
+  color: $color-primary;
 }
