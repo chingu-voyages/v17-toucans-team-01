@@ -4,8 +4,8 @@
   "description": "Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <https://twitter.com/ChinguCollabs>",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html -p 3000 --open",
-    "build:parcel": "parcel build src/index.html",
+    "start": "parcel src/index.html --out-dir docs -p 3000 --open",
+    "build:parcel": "parcel build src/index.html --out-dir docs --public-url ./",
     "build": "npm run clean && npm run build:parcel",
     "clean": "rm -rf dist/*"
   },
