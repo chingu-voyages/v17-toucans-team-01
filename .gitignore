@@ -1,5 +1,5 @@
 # Ignore docs directory on development branch only! 
-docs/
+docs
 
 # Logs
 logs
@@ -69,4 +69,3 @@ yarn-error.log
 # Parcel related files
 dist/
 .cache/
-

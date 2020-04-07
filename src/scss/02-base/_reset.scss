@@ -1,70 +1,71 @@
 *,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-	//This defines what 1rem is.  100% = 16px.
-	//The entire layout depends on this one value;
-	font-size: 100%;
+  //This defines what 1rem is.  100% = 16px.
+  //The entire layout depends on this one value;
+  font-size: 100%;
 }
 
 body {
-	box-sizing: border-box;
-	font-size: $default-font-size;
-	background-color: $color-black;
-	overflow-x: hidden;
-	overflow-y: auto;
+  box-sizing: border-box;
+  font-size: $default-font-size;
+  background-color: $color-black;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 button,
 input,
 textarea {
-	background-color: transparent;
-	border: 0;
-	font: inherit;
-	color: inherit;
+  background-color: transparent;
+  border: 0;
+  font: inherit;
+  color: inherit;
 
-	&:focus {
-		outline: none;
-	}
+  &:focus {
+    outline: none;
+  }
 }
 
 a {
-	color: inherit;
-	transition: color 0.2s ease, background-color 0.2s ease;
+  color: inherit;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
 }
 
 // Custom Scrollbar
 ::-webkit-scrollbar {
-	width: 14px;
-	height: 14px;
+  width: 14px;
+  height: 14px;
 
-	&-thumb {
-		background-color: $color-primary;
-	}
+  &-thumb {
+    background-color: $color-primary;
+  }
 
-	&-track {
-		background-color: transparent;
-	}
+  &-track {
+    background-color: transparent;
+  }
 
-	&-thumb,
-	&-track {
-		border: 4px solid transparent;
-		background-clip: padding-box;
-		border-radius: 8px;
-	}
+  &-thumb,
+  &-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+  }
 
-	&-button {
-		display: none;
-		width: 0;
-		height: 0;
-	}
+  &-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
 
-	&-corner {
-		background-color: transparent;
-	}
+  &-corner {
+    background-color: transparent;
+  }
 }
