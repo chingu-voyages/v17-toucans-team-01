@@ -1,0 +1,38 @@
+.app-footer {
+	&__section {
+		padding: 2rem 0;
+		border-bottom: 2px solid rgba(242, 242, 242, 0.1);
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+	&__apps {
+		column-count: 4;
+		column-gap: 2.5rem;
+	}
+	&__app {
+		display: inline-block;
+		width: 100%;
+		margin: 0.4rem 0;
+	}
+
+	&__link {
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+
+	& ul {
+		list-style: none;
+
+		& li {
+			margin: 0.4rem 0;
+		}
+		& a {
+			text-decoration: none;
+		}
+	}
+}

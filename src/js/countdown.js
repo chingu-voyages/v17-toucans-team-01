@@ -1,18 +1,12 @@
-const accordions = document.querySelectorAll('.accordion');
+export default function setCountdown() {
 
-const countdownDays = document.querySelectorAll('#days');
-const countdownHours = document.querySelectorAll('#hours');
-const countdownMinutes = document.querySelectorAll('#mins');
-const countdownSeconds = document.querySelectorAll('#secs');
-
-// Toggle the FAQ Dropdowns
-function toggleAccordion() {
-  this.lastElementChild.classList.toggle('accordion__response--visible');
-}
-
-// Set countdown timer to restart at midnight everyday
-function setCountdown() {
   const now = new Date();
+
+  const countdownDays = document.querySelectorAll('#days');
+  const countdownHours = document.querySelectorAll('#hours');
+  const countdownMinutes = document.querySelectorAll('#mins');
+  const countdownSeconds = document.querySelectorAll('#secs');
+
   let daysLeft = 0;
   let hoursLeft = 23 - now.getHours();
   let minutesLeft = 59 - now.getMinutes();
@@ -42,13 +36,3 @@ function setCountdown() {
     secondEl.innerText = secondsLeft;
   });
 }
-
-// Update Dom
-setCountdown();
-setInterval(setCountdown, 1000);
-
-//*  Event Listeners
-// FAQ Dropdowns
-accordions.forEach(accordion =>
-  accordion.addEventListener('click', toggleAccordion)
-);

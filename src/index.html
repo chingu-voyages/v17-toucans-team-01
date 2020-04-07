@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
       content="This page is a clone of the mouseless app."
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
     <title>Mouseless</title>
+    <link rel="stylesheet" href="./scss/styles.scss" />
     <link
-      data-vue-tag="ssr"
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/images/favicon.png"
+      href="./images/favicon.png"
     />
   </head>
   <body>
@@ -27,12 +26,12 @@
           <div class="navigation__inner">
             <a href="/" class="navigation__logo" active--exact active>
               <img
-                src="assets/images/mouseless_icon.png"
+                src="./images/mouseless_icon.png"
                 alt="Icon"
                 class="navigation__icon"
               />
               <img
-                src="assets/images/mouseless_tag.svg"
+                src="./images/mouseless_tag.svg"
                 alt="Mouseless"
                 class="navigation__name"
               />
@@ -109,12 +108,12 @@
 
         <!-- Section 2: Video -->
         <section class="app-section app-section--black has-wave">
-          <img src="assets/images/wave.svg" class="app-section__wave" />
+          <img src="./images/wave.svg" class="app-section__wave" />
           <div class="app-section__inner">
             <div class="demo-video">
               <div class="demo-video__ratio">
                 <video
-                  src="assets/media/test.mp4"
+                  src="./images/test.mp4"
                   playsinline=""
                   autoplay="autoplay"
                   muted="muted "
@@ -132,7 +131,7 @@
             <div class="split">
               <div class="split__media">
                 <img
-                  src="assets/images/keys.png"
+                  src="./images/keys.png"
                   alt="keyboard keys"
                   class="rounded-image"
                 />
@@ -157,7 +156,7 @@
             <div class="split is-flipped">
               <div class="split__media">
                 <video
-                  src="assets/media/coffee.mp4"
+                  src="./images/coffee.mp4"
                   playsinline=""
                   autoplay="autoplay"
                   muted="muted"
@@ -191,7 +190,7 @@
                   <p>
                     Interactive drills
                     <span class="yellow">train the muscle-memory </span>
-                    <img src="assets/images/brain.svg" alt="" class="brain" />
+                    <img src="./images/brain.svg" alt="" class="brain" />
                     required to have your fingers flying across the keyboard.
                   </p>
                 </div>
@@ -206,7 +205,7 @@
             <div class="split">
               <div class="split__media">
                 <video
-                  src="assets/media/menubar.mp4"
+                  src="./images/menubar.mp4"
                   playsinline=""
                   autoplay="autoplay"
                   muted="muted"
@@ -238,7 +237,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/adobexd.svg"
+                            src="./images/adobexd.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -253,7 +252,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/bear.svg"
+                            src="/images/bear.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -268,7 +267,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/chrome.svg"
+                            src="./images/chrome.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -283,7 +282,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/figma.svg"
+                            src="./images/figma.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -298,23 +297,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/finder.svg"
-                            alt="logo"
-                            class="logo__image"
-                          />
-                        </div>
-                        <div class="logo__card"></div>
-                        <!-- <div class="logo__back"></div> -->
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="logo-grid__item">
-                    <div class="logo">
-                      <div class="logo__inner">
-                        <div class="logo__front">
-                          <img
-                            src="assets/images/firefox.svg"
+                            src="./images/finder.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -330,7 +313,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/gmail.svg"
+                            src="./images/firefox.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -346,7 +329,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/iawriter.svg"
+                            src="./images/gmail.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -362,7 +345,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/macos.svg"
+                            src="./images/iawriter.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -378,7 +361,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/photoshop.svg"
+                            src="./images/macos.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -394,7 +377,7 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/sketch.svg"
+                            src="./images/photoshop.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -410,7 +393,23 @@
                       <div class="logo__inner">
                         <div class="logo__front">
                           <img
-                            src="assets/images/sublimetext.svg"
+                            src="./images/sketch.svg"
+                            alt="logo"
+                            class="logo__image"
+                          />
+                        </div>
+                        <div class="logo__card"></div>
+                        <!-- <div class="logo__back"></div> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="logo-grid__item">
+                    <div class="logo">
+                      <div class="logo__inner">
+                        <div class="logo__front">
+                          <img
+                            src="./images/sublimetext.svg"
                             alt="logo"
                             class="logo__image"
                           />
@@ -552,7 +551,7 @@
                     target="_blank"
                   >
                     <img
-                      src="assets/images/producthuntratings.svg"
+                      src="/images/producthuntratings.svg"
                       width="124"
                       class="testimonials__ratings"
                     />
@@ -569,7 +568,7 @@
                   <ul class="glide__slides">
                     <li class="glide__slide">
                       <img
-                        src="assets/images/temirlannugmanov.jpg"
+                        src="./images/temirlannugmanov.jpg"
                         class="testimonials__image"
                       />
                       <div class="testimonials__content">
@@ -586,7 +585,7 @@
 
                     <li class="glide__slide">
                       <img
-                        src="assets/images/thomaschretien.jpg"
+                        src="./images/thomaschretien.jpg"
                         class="testimonials__image"
                       />
                       <div class="testimonials__content">
@@ -605,7 +604,7 @@
 
                     <li class="glide__slide">
                       <img
-                        src="assets/images/erikspiekermann.jpg"
+                        src="./images/erikspiekermann.jpg"
                         class="testimonials__image"
                       />
                       <div class="testimonials__content">
@@ -630,7 +629,7 @@
             <div class="call-to-action">
               <div class="call-to-action__media">
                 <img
-                  src="assets/images/shadow-logo.png"
+                  src="./images/shadow-logo.png"
                   alt="Mouseless Logo"
                   class="call-to-action__image"
                 />
@@ -1240,22 +1239,8 @@
         </section>
       </footer>
     </div>
-    <script src="js/index.js"></script>
-    <!-- Slider Script -->
-    <script>
-      const glide = new Glide('.glide', {
-        type: 'carousel',
-        focusAt: 'center',
-        perView: 1,
-        gap: 32,
-        autoplay: 5000,
-        hoverpause: true,
-        peek: {
-          before: 240,
-          after: 240,
-        },
-      });
-      glide.mount();
-    </script>
+
+    <!--JS-->
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
