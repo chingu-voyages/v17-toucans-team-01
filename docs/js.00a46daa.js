@@ -3670,8 +3670,10 @@ var glide = new _glide.default('.glide', {
   focusAt: 'center',
   perView: 1,
   gap: 32,
-  autoplay: 5000,
+  autoplay: 3500,
   hoverpause: true,
+  animationTimingFunc: 'ease-in-out',
+  animationDuration: 800,
   peek: {
     before: 240,
     after: 240
@@ -3796,7 +3798,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54065" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55946" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

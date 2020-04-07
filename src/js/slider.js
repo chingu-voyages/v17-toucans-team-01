@@ -5,8 +5,10 @@ export const glide = new Glide('.glide', {
   focusAt: 'center',
   perView: 1,
   gap: 32,
-  autoplay: 5000,
+  autoplay: 3500,
   hoverpause: true,
+  animationTimingFunc: 'ease-in-out',
+  animationDuration: 800,
   peek: {
     before: 240,
     after: 240,
