@@ -3,6 +3,10 @@ main {
     &:first-child {
       .app-section__inner {
         padding-top: 12rem;
+
+        @include respond(tab-small) {
+          padding-top: 8rem;
+        }
       }
     }
   }
@@ -24,7 +28,6 @@ main {
 
 .app-section {
   position: relative;
-  // padding-top: 0;
 
   &__inner {
     position: relative;

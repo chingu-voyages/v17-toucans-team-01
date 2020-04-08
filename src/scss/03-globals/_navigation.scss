@@ -62,6 +62,11 @@
     text-decoration: none;
     color: $color-black-light;
 
+    @include respond(tab-small) {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+
     &:hover,
     &:active {
       background-color: $color-grey-transparent;
