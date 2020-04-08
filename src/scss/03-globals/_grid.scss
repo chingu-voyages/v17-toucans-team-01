@@ -21,25 +21,29 @@
         padding-bottom: 0;
       }
     }
-
     @include respond(tab-port) {
       width: 100% !important;
       margin: 0;
       max-width: 100%;
-      padding-bottom: 1.5rem;
-      padding-right: 1.5rem;
+      padding-bottom: 2.5rem;
+      padding-right: 2.5rem;
     }
   }
 
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
 
-    @include respond(tab-port) {
-      padding-bottom: 2.5rem;
+    .narrow {
+      padding-bottom: 0.7rem;
     }
   }
 
   .col-1-of-3 {
     width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+
+    @include respond(tab-port) {
+      padding-bottom: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 }

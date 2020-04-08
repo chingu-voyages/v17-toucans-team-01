@@ -21,12 +21,18 @@ export const glide = new Glide('.glide', {
         before: 0,
         after: 0,
       },
-      gap: 16,
+      gap: 40,
     },
     700: {
       peek: {
-        before: 50,
-        after: 50,
+        before: 40,
+        after: 40,
+      },
+    },
+    800: {
+      peek: {
+        before: 40,
+        after: 40,
       },
     },
     900: {

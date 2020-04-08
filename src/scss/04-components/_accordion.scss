@@ -47,4 +47,10 @@
 
   &__content {
   }
+
+  &__column {
+    @include respond(tab-port) {
+      padding-bottom: 0 !important;
+    }
+  }
 }

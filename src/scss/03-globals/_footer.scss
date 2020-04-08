@@ -15,7 +15,7 @@
     column-count: 4;
     column-gap: 2.5rem;
 
-    @include respond(tab-port) {
+    @include respond(tab-land) {
       column-count: 2;
     }
   }
