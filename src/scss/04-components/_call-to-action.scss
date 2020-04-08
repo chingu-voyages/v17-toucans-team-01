@@ -7,6 +7,12 @@
   align-items: center;
   border-radius: 24px;
 
+  @include respond(tab-land) {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
+  }
+
   &__media {
     width: 35%;
     flex: 0 0 auto;
@@ -16,6 +22,12 @@
     width: 100%;
     height: auto;
     margin: -2rem -2rem -2rem 2rem;
+
+    @include respond(tab-land) {
+      margin: 0 0 0 -1.5rem;
+      width: 100%;
+      height: auto;
+    }
   }
 
   &__content {

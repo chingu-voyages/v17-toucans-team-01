@@ -17,6 +17,10 @@
     max-width: 66rem;
     margin: 0 auto;
     padding: 2rem 3rem;
+
+    @include respond(tab-land) {
+      padding: 2rem 1.5rem;
+    }
   }
 
   &__logo {
@@ -33,6 +37,10 @@
     display: block;
     width: 6.75rem;
     margin-left: 0.5rem;
+
+    @include respond(tab-small) {
+      display: none;
+    }
   }
 
   &__menu {
@@ -53,6 +61,11 @@
     font-weight: 700;
     text-decoration: none;
     color: $color-black-light;
+
+    @include respond(tab-small) {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
 
     &:hover,
     &:active {

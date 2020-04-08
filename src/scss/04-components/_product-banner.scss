@@ -13,18 +13,31 @@
     z-index: 2;
     padding: 2.5rem 2rem;
     width: 60%;
+
+    @include respond(tab-small) {
+      padding: 1.5rem;
+      width: 100%;
+    }
   }
 
   &__headline {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0.3rem;
+
+    @include respond(tab-small) {
+      font-size: 1.4rem;
+    }
   }
 
   &__subline {
     font-weight: 400;
     font-size: 1.5rem;
     opacity: 0.7;
+
+    @include respond(tab-small) {
+      font-size: 1.1rem;
+    }
   }
 
   &__media {
@@ -36,6 +49,15 @@
     z-index: 1;
     top: 0;
     left: 0;
+
+    @include respond(tab-small) {
+      opacity: 0.12;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__image {

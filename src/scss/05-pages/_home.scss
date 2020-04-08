@@ -3,6 +3,10 @@ main {
     &:first-child {
       .app-section__inner {
         padding-top: 12rem;
+
+        @include respond(tab-small) {
+          padding-top: 8rem;
+        }
       }
     }
   }
@@ -32,6 +36,11 @@ main {
     padding-top: 0;
     max-width: 66rem;
     margin: 0 auto;
+
+    @include respond(tab-small) {
+      padding: 4rem 1.5rem;
+      padding-top: 0;
+    }
   }
 
   &--black {
@@ -75,10 +84,10 @@ main {
     height: auto;
     user-select: none;
   }
-}
 
-.has-wave {
-  .app-section__inner {
-    padding-top: 0;
+  .has-wave {
+    &__inner {
+      padding-top: 0;
+    }
   }
 }

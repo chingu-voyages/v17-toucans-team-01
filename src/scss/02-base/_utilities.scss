@@ -9,6 +9,10 @@ small {
   text-align: left;
   margin: 10px 0 auto;
   padding: 0;
+
+  @include respond(tab-port) {
+    text-align: center;
+  }
 }
 .green {
   color: $color-green;

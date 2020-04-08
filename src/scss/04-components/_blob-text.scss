@@ -1,17 +1,29 @@
 .blob-text {
-	// background-image: url(./images/blob.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 100%;
-	padding: 4rem 0;
+  background-image: url(../images/blob.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 4rem 0;
 
-	&__content {
-		color: $color-white;
-		margin: 0 auto;
-		max-width: 40rem;
-	}
+  @include respond(tab-small) {
+    padding: 0;
+  }
 
-	p {
-		margin: 1rem 0;
-	}
+  &__content {
+    color: $color-white;
+    margin: 0 auto;
+    max-width: 40rem;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+}
+
+.brain {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1em;
+  width: auto;
+  margin: 0 0.8rem;
 }
