@@ -9,36 +9,48 @@ export const glide = new Glide('.glide', {
   gap: 32,
   autoplay: 3500,
   hoverpause: true,
+  dragThreshold: 20,
   animationTimingFunc: 'ease-in-out',
-  animationDuration: 800,
+  animationDuration: 500,
   peek: {
     before: 240,
     after: 240,
   },
   breakpoints: {
-    600: {
+    500: {
       peek: {
         before: 0,
         after: 0,
       },
-      gap: 40,
     },
-    700: {
+    600: {
       peek: {
         before: 50,
         after: 50,
+      },
+    },
+    700: {
+      peek: {
+        before: 70,
+        after: 70,
       },
     },
     800: {
       peek: {
-        before: 50,
-        after: 50,
+        before: 100,
+        after: 100,
       },
     },
     900: {
       peek: {
-        before: 100,
-        after: 100,
+        before: 150,
+        after: 150,
+      },
+    },
+    1000: {
+      peek: {
+        before: 200,
+        after: 200,
       },
     },
   },

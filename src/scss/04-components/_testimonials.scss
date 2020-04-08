@@ -34,9 +34,6 @@
     padding: 0;
   }
 
-  &__text {
-  }
-
   &__title {
     color: $color-white;
   }
@@ -44,10 +41,12 @@
 
 .glide__slides {
   overflow: visible;
+  margin: 0 auto;
 }
 
 .glide__track {
   overflow: visible;
+  margin: 0 auto;
 }
 
 .glide__slide {
@@ -56,10 +55,12 @@
   align-items: center;
   text-align: center;
   padding: 0 3rem 3rem;
-  margin: 3rem 1rem 0;
-  width: 30rem;
+  margin: 3rem 0 0 0;
   height: auto;
-  max-width: 100%;
+  flex-shrink: 0;
+  position: relative;
+  width: 30rem;
+  // min-width: 30rem;
   background-color: $color-grey-medium;
   border-radius: 20px;
   filter: grayscale(100%);
