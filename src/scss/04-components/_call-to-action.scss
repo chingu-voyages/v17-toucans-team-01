@@ -8,9 +8,8 @@
   border-radius: 24px;
 
   @include respond(tab-land) {
-    // width < 900?
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     padding: 2rem;
   }
 
@@ -25,8 +24,9 @@
     margin: -2rem -2rem -2rem 2rem;
 
     @include respond(tab-land) {
-      // width < 900?
       margin: 0 0 0 -1.5rem;
+      width: 100%;
+      height: auto;
     }
   }
 
