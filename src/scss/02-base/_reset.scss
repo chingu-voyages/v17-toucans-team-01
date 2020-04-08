@@ -10,6 +10,10 @@ html {
   //This defines what 1rem is.  100% = 16px.
   //The entire layout depends on this one value;
   font-size: 100%;
+
+  @include respond(small-phone) {
+    font-size: 56.25%; //1rem = 9px, 9/16 = 56.25%
+  }
 }
 
 body {

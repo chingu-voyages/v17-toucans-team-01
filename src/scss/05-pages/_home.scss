@@ -32,6 +32,10 @@ main {
     padding-top: 0;
     max-width: 66rem;
     margin: 0 auto;
+
+    @include respond(tab-small) {
+      padding: 4rem 1.5rem;
+    }
   }
 
   &--black {
