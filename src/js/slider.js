@@ -25,14 +25,14 @@ export const glide = new Glide('.glide', {
     },
     700: {
       peek: {
-        before: 40,
-        after: 40,
+        before: 50,
+        after: 50,
       },
     },
     800: {
       peek: {
-        before: 40,
-        after: 40,
+        before: 50,
+        after: 50,
       },
     },
     900: {
