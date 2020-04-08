@@ -1,3 +1,6 @@
+# Ignore docs directory on development branch only! 
+docs/
+
 # Logs
 logs
 *.log

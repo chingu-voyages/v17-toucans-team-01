@@ -5,14 +5,27 @@
 
   &__text {
     width: 53%;
+
+    @include respond(tab-small) {
+      width: 100%;
+    }
   }
 
   &__media {
     width: 35%;
     margin: 0;
+
+    @include respond(tab-small) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &.is-flipped {
     flex-direction: row-reverse;
+  }
+
+  @include respond(tab-small) {
+    display: inline;
   }
 }

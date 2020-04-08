@@ -1,0 +1,54 @@
+//MEDIA QUERY MANAGER
+/*
+max-width
+0-350         Small Phone
+350-600px     Phone
+600-700px     Tablet Portrait
+700-900       Tablet Landscape
+[900- 1200]  Normal styles
+
+$breakpoint argument choices
+- small-phone
+- phone
+- tab-port
+- tab-land
+
+ORDER: Base + typography > general layout + grid layout > page layout > components
+
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 21.875em) {
+      //350px divide by 16px base font size
+      @content;
+    }
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 31.25em) {
+      //500px
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-small {
+    @media only screen and (max-width: 43.75em) {
+      //700px
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 50em) {
+      //800px
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 56.25em) {
+      //900px
+      @content;
+    }
+  }
+}
