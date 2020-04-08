@@ -18,6 +18,10 @@
     @include respond(tab-land) {
       column-count: 2;
     }
+
+    @include respond(phone) {
+      column-count: 1;
+    }
   }
   &__app {
     display: inline-block;
