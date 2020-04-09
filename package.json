@@ -4,10 +4,11 @@
   "description": "Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <https://twitter.com/ChinguCollabs>",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html --out-dir docs -p 3000 --open",
-    "build:parcel": "parcel build src/index.html --out-dir docs --public-url ./",
+    "start": "parcel src/index.html -p 3000 --open",
+    "build:parcel": "parcel build src/index.html --public-url ./",
     "build": "npm run clean && npm run build:parcel",
-    "clean": "rm -rf docs/*"
+    "clean": "rm -rf dist/*",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "parcel-bundler": "^1.11.0",
     "postcss-cli": "^7.1.0",
