@@ -2,7 +2,7 @@
 /* eslint-disable node/no-unsupported-features/es-syntax */
 import Glide from '@glidejs/glide';
 
-export const glide = new Glide('.glide', {
+const glide = new Glide('.glide', {
   type: 'carousel',
   focusAt: 'center',
   perView: 1,
@@ -55,4 +55,5 @@ export const glide = new Glide('.glide', {
     },
   },
 });
-glide.mount();
+
+export default glide;
