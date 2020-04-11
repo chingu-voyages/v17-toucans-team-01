@@ -11,7 +11,7 @@
     "build:parcel": "parcel build ./src/index.html --public-url ./",
     "build": "npm run clean && npm run build:parcel",
     "clean": "rm -rf dist/*",
-    "deploy": "gh-pages -d dist"
+    "deploy": "touch dist/.nojekyll && gh-pages -t -d dist"
   },
   "repository": {
     "type": "git",

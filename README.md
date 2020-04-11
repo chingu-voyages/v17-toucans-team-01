@@ -1,11 +1,10 @@
 # v17-toucans-team-01 <!-- omit in toc -->
 
-Add-project-description-here | Voyage-17 | <https://chingu.io/> | Twitter: <https://twitter.com/ChinguCollabs>
+Final Project is deployed on Github Pages here: <https://chingu-voyages.github.io/v17-toucans-team-01/>
 
 ## Table of Contents <!-- omit in toc -->
 
 - [🏆 Team Goals](#-team-goals)
-- [🤝 Team Agreements](#-team-agreements)
 - [✅ Project Information](#-project-information)
   - [About](#about)
   - [MVP Definition](#mvp-definition)
@@ -42,13 +41,13 @@ This project is a clone of the [mouseless.app](mouseless.app) product webpage. T
 
 The MVP will be a visual clone of the site's landing page. It will keep the same aesthetic as the original site and provide a simple and clean interface for users to both learn about and buy the product across different device sizes. The following features are to be included:
 
-- Every section from the original page will be cloned.
-- The page is fully responsive with breakpoints for mobile, tablet, and desktop views.
-- The testimonial section features both click and drag and auto scroll movement.
-- A dynamic countdown timer for the sale price. The timer resets to 11 hours everyday at 12am PST.
-- FAQ section with hidden dropdown answers for each question. Clicking each question's icon will reveal the answer.
-- Features section with 4X3 icon grid.
-- Custom colored vertical scroll bar.
+- [x] Every section from the original page will be cloned.
+- [x] The page is fully responsive with breakpoints for mobile, tablet, and desktop views.
+- [x] The testimonial section features both click and drag and auto scroll movement.
+- [x] A dynamic countdown timer for the sale price. The timer resets to 11 hours everyday at 12am PST.
+- [x] FAQ section with hidden dropdown answers for each question. Clicking each question's icon will reveal the answer.
+- [x] Features section with 4X3 icon grid.
+- [x] Custom colored vertical scroll bar.
 
 #### Stretch Goals
 
@@ -58,7 +57,7 @@ The MVP will be a visual clone of the site's landing page. It will keep the same
 
 ### Tech Stack
 
-The site is static with no server or database. Only vanilla HTML/CSS/JS will be used except Sass(SCSS) is used for preprocessing styles.
+The site is static with no server or database. Only vanilla HTML/CSS/JS will be used except Sass(SCSS) is used for preprocessing styles. Parcel is used to bundle files prior to deployment on Github pages.
 
 ### Design Mockup
 
@@ -130,26 +129,20 @@ A three-level hierarchy of branches is used, through which changes are promoted.
      npm install
    ```
 
-5. Set up linting and code formatting (VS Code)
+5. To set up linting and code formatting (VS Code)
 
    - Install Babel plugin
    - Install Prettier plugin
    - In VS Code global settings, make sure "auto format on save" is checked on.
    - In Prettier plugin settings, turn on single quote and semi colons.
 
-6. Install [live server](https://www.npmjs.com/package/live-server) (its' recommended to do so globally):
-
-   ```text
-     npm install -g live-server
-   ```
-
-7. Start the development server
+6. Start the development server
 
    ```text
      npm run start
    ```
 
-8. Work and make commits on local feature branch.
+7. Work and make commits on local feature branch.
 
 ### Commit Messages
 
@@ -177,23 +170,9 @@ footer
 
   - Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period. Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes.
 
-- Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how.
-
-- The footer is optional and is used to reference issue tracker IDs.
-
   ```text
   feat: Summarize changes in around 50 characters or less
 
-  More detailed explanatory text, if necessary.
-
-  Further paragraphs come after blank lines.
-
-    - Bullet points are okay
-
-  Put references to issues in the footer:
-
-  Resolves: #11
-  See also: #08, #09
   ```
 
 ### Pushing Changes
@@ -221,8 +200,6 @@ footer
 
 ## 💅 Code Style Guide
 
-This project uses a Prettier configuration file for code formatting and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript style.
-
 The following rules are enforced:
 
 ### HTML formatting and style rules
@@ -240,83 +217,8 @@ The following rules are enforced:
 
 ### CSS formatting and style rules
 
--[ ] need to update for BEM/ SASS.
+- CSS is organized using BEM methodology. See this [link](https://cssguidelin.es/#bem-like-naming) for specific rules.
 
 ### JavaScript formatting and style rules
 
-- The code does not have trailing white spaces.
-- Indentation is consistent (2 spaces).
-- Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
-- Mark 'todo and action items with `TODO:`
-- When declaring variables, declare variables with `const`, first. If needed, reassign the variable using `let`. There isn't a good reason to use the var keyword anymore for variable declaration.
-- **Always use semicolons:**
-
-  ```js
-  // Recommended
-  const foo = () => {
-    return true; // Missing semicolon
-  }; // Missing semicolon
-
-  function foo() {
-    return true;
-  } // Extra semicolon
-  ```
-
-- `forEach` or `for` loops are preferred over `for-in` loops when iterating over an array.
-- `for-in` loops are used to loop over keys in an object. Make sure to wrap the content of the `for-in` loop in a conditional statement to prevent it from from iterating over the prototype chain:
-
-  ```js
-  // Recommended
-  myObj = { firstName: 'Ada', lastName: 'Lovelace' };
-  for (const key in myObj) {
-    if (myObj.hasOwnProperty(key)) {
-      console.log(myObj[key]);
-    }
-  }
-  ```
-
-- Use Array and Object literals instead of Array and Object constructors.
-- In general, functionNamesLikeThis, variableNamesLikeThis, ClassNamesLikeThis, methodNamesLikeThis, CONSTANT_VALUES_LIKE_THIS and filenameslikethis.js
-- Because of implicit semicolon insertion, always start your curly braces on the same line as whatever they're opening.
-
-  ```js
-  // Recommended
-  if (something) {
-    // Do something
-  } else {
-    // Do something else
-  }
-  ```
-
-- Single-line array and object initializers are allowed when they fit on one line. There should be no spaces after the opening bracket or before the closing bracket:
-
-  ```js
-  // Recommended
-  const array = [1, 2, 3];
-  const object = { a: 1, b: 2, c: 3 };
-  ```
-
-- Multiline array and object initializers are indented one-level, with the braces on their own line, just like blocks:
-
-  ```js
-  // Recommended:
-  const array = [
-    'Joe <joe@email.com>',
-    'Sal <sal@email.com>',
-    'Dave <dave@email.com>',
-    'Q <q@email.com>'
-  ];
-
-  const object = {
-    id: 'foo',
-    class: 'foo-important',
-    name: 'notification'
-  };
-  ```
-
-- Except for JSON objects, use single-quotes (') over double-quotes ("). This is helpful when creating strings that include HTML:
-
-  ```js
-  // Recommended:
-  const element = '<button class="btn">Click Me</button>';
-  ```
+This project uses a Prettier configuration file for code style and follows the [Airbnb Style Guide](https://github.com/airbnb/javascript) for Javascript formatting.
