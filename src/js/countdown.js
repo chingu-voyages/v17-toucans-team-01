@@ -1,11 +1,10 @@
 export default function setCountdown() {
-
   const now = new Date();
 
-  const countdownDays = document.querySelectorAll('#days');
-  const countdownHours = document.querySelectorAll('#hours');
-  const countdownMinutes = document.querySelectorAll('#mins');
-  const countdownSeconds = document.querySelectorAll('#secs');
+  const countdownDays = document.querySelectorAll('.days');
+  const countdownHours = document.querySelectorAll('.hours');
+  const countdownMinutes = document.querySelectorAll('.mins');
+  const countdownSeconds = document.querySelectorAll('.secs');
 
   let daysLeft = 0;
   let hoursLeft = 23 - now.getHours();
@@ -20,19 +19,23 @@ export default function setCountdown() {
 
   countdownDays.innerText = daysLeft;
 
-  countdownDays.forEach(dayEl => {
+  countdownDays.forEach((day) => {
+    const dayEl = day;
     dayEl.innerText = daysLeft;
   });
 
-  countdownHours.forEach(hourEl => {
+  countdownHours.forEach((hour) => {
+    const hourEl = hour;
     hourEl.innerText = hoursLeft;
   });
 
-  countdownMinutes.forEach(minuteEl => {
+  countdownMinutes.forEach((minute) => {
+    const minuteEl = minute;
     minuteEl.innerText = minutesLeft;
   });
 
-  countdownSeconds.forEach(secondEl => {
+  countdownSeconds.forEach((second) => {
+    const secondEl = second;
     secondEl.innerText = secondsLeft;
   });
 }
