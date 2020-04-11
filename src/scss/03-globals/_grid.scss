@@ -41,6 +41,12 @@
   .col-1-of-3 {
     width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
 
+    &.narrow {
+      @include respond(tab-port) {
+        padding-bottom: 1.5rem;
+      }
+    }
+
     @include respond(tab-port) {
       padding-bottom: 1.5rem;
       padding-right: 1.5rem;
